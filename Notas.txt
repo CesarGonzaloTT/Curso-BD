@@ -1,0 +1,4 @@
+Bases de datos SQL.
+Una base de datos está conformada por tablas.
+Columnas: Atributos asociados a un registro, representan lo que es la entidad
+Entidad: Se entiende como las tablas o conjuntos de tablas que la conforman el objeto.
