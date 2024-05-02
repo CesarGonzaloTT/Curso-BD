@@ -1,2 +1,7 @@
-SELECT DISTINCT * FROM users /*Resultados distintos que no tengan la coincidencia con lo que se indica,en este caso serian todos por el '*'*/
-SELECT DISTINCT age FROM users /*Selecciona los campos distintos en la columna de edad*/
+--DISTINCT
+
+--Muestra los valores que son distintos, en este caso toda la tabla, ya que no hay duplicados.
+SELECT DISTINCT * FROM users;
+
+--Muestra las distintas edades.
+SELECT DISTINCT age FROM users;
