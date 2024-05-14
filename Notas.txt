@@ -2,3 +2,11 @@ Bases de datos SQL.
 Una base de datos está conformada por tablas.
 Columnas: Atributos asociados a un registro, representan lo que es la entidad
 Entidad: Se entiende como las tablas o conjuntos de tablas que la conforman el objeto.
+Tipos de relaciones.
+- 1:1. Cada elemento de una tabla debe estar relacionado únicamente con un elemento de otra tabla y viceversa.
+- 1:N. Cada elemento de una tabla se relaciona con varios elementos de otra tabla.
+- N:M. Varios elementos de una tabla se relacionan con varios elementos de otra tabla. Para este tipo de relaciones se suele utilizar una tabla intermedia para generar las relaciones.
+- Relación de autorreferencia. Relaciones dentro de una misma tabla.
+Clave Primaria: Clave para identificar las relaciones de una tabla.
+Clave Foranea: Clave primaria de una tabla que se encuentra en otra.
+Cuando se puedan llegar a tener tablas sin relaciones, es recomendable usar bases de datos no relacionales.
