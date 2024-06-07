@@ -1,6 +1,6 @@
 --INNER JOIN
 
---Comando que nos sirve para obtener los datos comunes de ambas tablas
+--Comando que nos sirve para obtener los datos comunes de ambas tablas, el INNER JOIN funciona como una operación AND donde cada tabla es un conjunto.
 
 --Primera impresión con un INNER JOIN, de esta manera, únicamente junta las tablas y las repite por cada valor.
 SELECT * FROM users
@@ -62,4 +62,9 @@ JOIN languages ON users_languages.language_id = languages.language_id;
 --Extraer únicamente columnas relevantes.
 SELECT users.name, languages.name FROM users_languages
 JOIN users ON users.user_id = users_languages.user_id
+JOIN languages ON users_languages.language_id = languages.language_id;
+
+--Se puede realizar también invirtiendo las tablas.
+SELECT users.name, languages.name FROM users
+JOIN users_languages ON users.user_id = users_languages.user_id
 JOIN languages ON users_languages.language_id = languages.language_id;
