@@ -24,3 +24,6 @@ delimiter;
 
 --La sentencia que se utilizó para probar y actualizar 1 campo fue la siguiente.
 UPDATE users SET email = "cesargonzalott@gmail.com" WHERE user_id = 1;
+
+--Para borrar un trigger.
+DROP TRIGGER tg_email;

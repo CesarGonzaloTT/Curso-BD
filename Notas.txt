@@ -10,3 +10,11 @@ Tipos de relaciones.
 Clave Primaria: Clave para identificar las relaciones de una tabla.
 Clave Foranea: Clave primaria de una tabla que se encuentra en otra.
 Cuando se puedan llegar a tener tablas sin relaciones, es recomendable usar bases de datos no relacionales.
+Transacciones.
+- En los sistema se requeire consistencia, que sean fiables, que no fallen en sus operaciones.
+- Una transacción es el flujo de una operación con un inicio y un final que requiere tener las consideraciones del enunciado anterior.
+- Sus fases son START TRANSACTION, COMMIT, ROLLBACK.
+Concurrencia.
+- Estos sucede cuando varios usuarios quieren hacer uso de la BD al mismo tiempo, para ello, los motores de bases de datos establecen distintas reglas de concurrencia.
+- Estas reglas pueden ser: bloqueo de campos, tablas, filas.
+- Si no sabe que hacer, se puede obtener un interbloqueo o deadlock.
